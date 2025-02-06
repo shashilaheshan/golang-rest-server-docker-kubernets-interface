@@ -31,7 +31,7 @@ func main() {
 
 	// Start the HTTP server
 	port := 8084
-	fmt.Println("running the server on %s", port)
+	
 	// Listen on port and handle errors
 	err := http.ListenAndServe(fmt.Sprintf(":%d", port), nil)
 
